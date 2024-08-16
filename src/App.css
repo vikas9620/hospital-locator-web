@@ -1,0 +1,60 @@
+/* App.css */
+
+/* Set a gradient background for the entire app */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #a3c2c2, #c0e4e4); /* Light teal to white gradient */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Center the app content */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the container with a card-like appearance */
+.container {
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for 3D effect */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+/* Add hover effect to the container */
+.container:hover {
+  transform: translateY(-5px); /* Slightly lift the container on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Style the heading */
+h1 {
+  font-size: 2.5rem;
+  color: #005f5f; /* Darker teal for headings */
+  margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+  background-color: #00796b; /* Darker teal for buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #004d40; /* Even darker teal on hover */
+}
+
+/* Style the Typography components */
+.typography {
+  margin: 10px 0;
+}
